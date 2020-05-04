@@ -4,6 +4,10 @@ Code for our BMVC 2019 paper [Image Classification with Hierarchical Multigraph 
 
 The code to extract superpixels can be found [in my another repo](https://github.com/bknyaz/graph_attention_pool).
 
+**Update:**
+
+In the code the `dist` variable should have been squared to make it a Gaussian. All figures and results were generated without squaring it. I don't think it's very important in terms of results, but if you square it, `sigma` should be adjusted accordingly.
+
 # Blog
 
 [Blog post explaining the paper](https://towardsdatascience.com/can-we-do-better-than-convolutional-neural-networks-46ed90fed807)
